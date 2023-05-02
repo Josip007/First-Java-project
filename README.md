@@ -1,18 +1,14 @@
 # First-Java-project
 
-Zadatak: Napišite Java program koji traži od korisnika da unese niz cijelih brojeva sve dok korisnik ne unese negativan broj. 
-Program treba ispisati zbroj svih parnih brojeva koje je korisnik unio koristeći for petlju i switch naredbu.
+• Assignment: Write a Java program that prompts the user to enter a sequence of integers until the user enters a negative number. The program should print the sum of all even numbers entered by the user using a for loop and a switch statement.
+If the user enters zero, the program should skip that iteration of the loop using ?? command, and if the user enters a positive odd number, the program should exit the loop using ?? command.. 
+Don't forget to use break and continue. In addition, each time the user enters a number, the program should print the corresponding day of the week using a switch statement.
 
-Ako korisnik unese nulu, program treba preskočiti tu iteraciju petlje koristeći ?? naredbu,
-a ako korisnik unese pozitivan neparan broj, program treba izaći iz petlje koristeći ?? naredbu.. 
-Ne zaboravite koristiti break i continue. Osim toga, svaki put kada korisnik unese broj,
-program treba ispisati odgovarajući dan u tjednu koristeći switch naredbu.
-U programu trebate implementirati sljedeće značajke: Vaš program treba neprestano tražiti od korisnika unos dok ne unese negativan broj.
-
-Ako korisnik ne unese broj, program treba ispisati poruku o grešci, tražiti od korisnika unos ispravnog cijelog broja i nastaviti s traženjem unosa.
-Za svaki broj koji je unio korisnik, vaš program treba ispisati odgovarajući dan u tjednu koristeći switch naredbu. 
-O-nedjelja, 1= ponedjeljak, 7=nedjelja, 8= ponedjeljak, 9=utorak i tako dalje. Ako korisnik unese nulu, 
-vaš program treba preskočiti tu iteraciju petlje koristeći ?? naredbu. Ako korisnik unese pozitivan neparan broj,
-vaš program treba izaći iz petlje koristeći ?? naredbu. Vaš program treba pratiti zbroj svih parnih brojeva koje je korisnik unio koristeći varijablu pod nazivom "sum".
-
-Konačno, vaš program treba ispisati zbroj svih parnih brojeva koje je korisnik unio.
+• You should implement the following features in your program: 
+• Your program should continuously ask the user for input until he enters a negative number.
+• If the user does not enter a number, the program should print an error message, ask the user to enter a correct integer, and continue searching for an entry.
+• For each number entered by the user, your program should print the corresponding day of the week using a switch statement. 0=Sunday, 1=Monday, 7=Sunday, 8=Monday, 9=Tuesday and so on. • If the user enters zero, your program should skip that iteration of the loop using ?? command.
+• If the user enters a positive odd number, your program should exit the loop using
+?? command.
+• Your program should keep track of the sum of all even numbers entered by the user using
+a variable named "sum". • Finally, your program should print the sum of all even numbers entered by the user.
